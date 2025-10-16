@@ -4,7 +4,7 @@ import { useAuthStore } from '@/stores/auth';
 import { useToastStore } from '@/stores/toast';
 
 const apiClient = axios.create({
-  baseURL: 'http://192.168.2.115/api/v1',
+  baseURL: 'http://127.0.0.1:8082/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
